@@ -82,33 +82,31 @@ export const DownloadSlide: React.FC<DownloadSlideProps> = ({ onOpenInstallModal
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4">
+          {/* Chrome - Direct Link (Live) */}
+          <a
+            href="https://chromewebstore.google.com/detail/grademyjob-ai-job-assista/ejhkkeaanbligdgpjmbpahjkidejnake"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2.5 px-7 py-3.5 rounded-xl font-bold text-xs sm:text-sm text-dark-950 bg-gradient-to-r from-cyan-400 to-emerald-400 hover:from-cyan-300 hover:to-emerald-300 transition-all shadow-lg shadow-cyan-500/25 active:scale-95 cursor-pointer"
+          >
+            <Chrome className="w-4 h-4" />
+            <span>Add to Chrome (Live)</span>
+          </a>
+
           {/* Firefox - Direct Link (Live) */}
           <a
             href="https://addons.mozilla.org/en-US/firefox/addon/grademyjob/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2.5 px-7 py-3.5 rounded-xl font-bold text-xs sm:text-sm text-dark-950 bg-gradient-to-r from-emerald-400 to-cyan-400 hover:from-emerald-300 hover:to-cyan-300 transition-all shadow-lg shadow-emerald-500/25 active:scale-95 cursor-pointer"
+            className="flex items-center gap-2.5 px-7 py-3.5 rounded-xl font-semibold text-xs sm:text-sm text-zinc-200 bg-dark-950 border border-slate-700 hover:border-emerald-500/40 hover:text-white transition-all active:scale-95 cursor-pointer group"
           >
-            <Download className="w-4 h-4" />
+            <Download className="w-4 h-4 text-emerald-400" />
             <span>Add to Firefox (Live)</span>
           </a>
-
-          {/* Chrome - Under Review */}
-          <button
-            onClick={onOpenInstallModal}
-            className="flex items-center gap-2.5 px-6 py-3.5 rounded-xl font-semibold text-xs sm:text-sm text-zinc-200 bg-dark-950 border border-slate-700 hover:border-amber-500/40 hover:text-white transition-all active:scale-95 cursor-pointer group"
-          >
-            <Chrome className="w-4 h-4 text-cyan-400" />
-            <span>Add to Chrome</span>
-            <span className="text-[10px] font-mono font-medium px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 flex items-center gap-1 ml-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
-              Under Review
-            </span>
-          </button>
         </div>
 
         <p className="text-[11px] font-mono text-zinc-400 mt-4">
-          Chrome Web Store extension is currently under review and will be published soon.
+          Free to use • 25 free daily cloud grades • Offline & BYOK modes included
         </p>
       </div>
 
