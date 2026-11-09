@@ -88,22 +88,22 @@ export const CapabilitiesSlide: React.FC = () => {
           </div>
         </div>
 
-        {/* Card 3: DOM Injection Hook (6 cols) */}
+        {/* Card 3: Native Side Panel (6 cols) */}
         <div className="md:col-span-6 rounded-2xl bg-dark-900/90 border border-slate-800 p-6 flex flex-col justify-between shadow-xl hover:border-emerald-500/40 transition-all group">
           <div>
             <div className="flex items-center justify-between mb-3">
               <span className="px-2.5 py-1 rounded bg-emerald-950 text-emerald-300 text-[10px] font-mono border border-emerald-500/30">
-                CAPABILITY 03 // DOM INJECTION
+                CAPABILITY 03 // SIDE PANEL
               </span>
               <span className="text-[11px] font-mono text-zinc-400">Zero Disruption</span>
             </div>
             
             <h3 className="text-lg font-bold text-white mb-2 group-hover:text-emerald-300 transition-colors">
-              Native In-Page DOM Injection Hook
+              Native Side Panel & Live DOM Extraction
             </h3>
             
             <p className="text-xs text-zinc-300 leading-relaxed mb-4">
-              Injects a non-intrusive evaluation pill directly adjacent to LinkedIn's and Indeed's native "Easy Apply" button, opening an analytical slide-out drawer without leaving the job board.
+              Captures full job postings directly from LinkedIn, Indeed, and We Work Remotely without third-party scrapers, streaming insights into a persistent browser Side Panel without interrupting your browsing flow.
             </p>
           </div>
 
@@ -111,39 +111,39 @@ export const CapabilitiesSlide: React.FC = () => {
             <span className="text-cyan-300 font-semibold flex items-center gap-1.5">
               <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" /> LinkedIn • Indeed • WWR
             </span>
-            <span className="text-zinc-400 text-[11px]">Inline Slide-Out Drawer</span>
+            <span className="text-zinc-400 text-[11px]">Native Browser Side Panel</span>
           </div>
         </div>
 
-        {/* Card 4: Corporate Jargon Buster & Stack Dissector (6 cols) */}
+        {/* Card 4: Pros & Cons Signals & Stack Dissector (6 cols) */}
         <div className="md:col-span-6 rounded-2xl bg-dark-900/90 border border-slate-800 p-6 flex flex-col justify-between shadow-xl hover:border-emerald-500/40 transition-all group">
           <div>
             <div className="flex items-center justify-between mb-3">
               <span className="px-2.5 py-1 rounded bg-emerald-950 text-emerald-300 text-[10px] font-mono border border-emerald-500/30">
-                CAPABILITY 04 // DECONSTRUCTION
+                CAPABILITY 04 // SIGNALS & STACK
               </span>
               <span className="text-[11px] font-mono text-emerald-400 flex items-center gap-1">
-                <Terminal className="w-3.5 h-3.5" /> Jargon Dissector
+                <Terminal className="w-3.5 h-3.5" /> Signals Analysis
               </span>
             </div>
             
             <h3 className="text-lg font-bold text-white mb-2 group-hover:text-emerald-300 transition-colors">
-              Corporate Jargon Buster & Stack Dissector
+              Pros & Cons Signals & Stack Dissector
             </h3>
             
             <p className="text-xs text-zinc-300 leading-relaxed mb-4">
-              Deconstructs ambiguous buzzwords into ground-truth engineering expectations while categorizing languages, frameworks, cloud tooling, and databases into discrete buckets.
+              Surfaces potential job-post green flags and red flags while categorizing languages, frameworks, cloud tooling, and databases into discrete, structured technical buckets.
             </p>
           </div>
 
           <div className="p-2.5 rounded-xl bg-dark-950 border border-slate-800/90 font-mono text-[11px] space-y-1">
             <div className="flex items-center justify-between text-zinc-400">
-              <span className="text-rose-400 truncate">"Wearing multiple hats"</span>
-              <span className="text-zinc-300 text-[10px] truncate">Understaffed on-call</span>
+              <span className="text-emerald-400 truncate">🟢 Explicit salary range & modern stack</span>
+              <span className="text-zinc-300 text-[10px] truncate">Green Flag</span>
             </div>
             <div className="flex items-center justify-between text-zinc-400">
-              <span className="text-amber-400 truncate">"Self-starter with ambiguity"</span>
-              <span className="text-zinc-300 text-[10px] truncate">Minimal technical docs</span>
+              <span className="text-rose-400 truncate">🚩 Unrealistic scope & on-call ambiguity</span>
+              <span className="text-zinc-300 text-[10px] truncate">Red Flag</span>
             </div>
           </div>
         </div>

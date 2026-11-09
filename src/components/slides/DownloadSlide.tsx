@@ -106,7 +106,7 @@ export const DownloadSlide: React.FC<DownloadSlideProps> = ({ onOpenInstallModal
         </div>
 
         <p className="text-[11px] font-mono text-zinc-400 mt-4">
-          Free to use • 25 free daily cloud grades • Offline & BYOK modes included
+          Free to use • 25 free daily cloud grades • Instant Google Sign-In
         </p>
       </div>
 

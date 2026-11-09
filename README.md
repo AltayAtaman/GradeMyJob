@@ -14,7 +14,7 @@ GradeMyJob is a cross-browser extension (Chrome MV3 and Firefox MV2) built to au
 ### Technical Highlights
 * **In-Browser DOM Extraction:** Employs dynamic scrapers on LinkedIn, Indeed, and WWR to extract structured data from live job listings without third-party scraping APIs.
 * **Requirements & Signal Analysis:** Distinguishes core technical prerequisites from nice-to-haves and surfaces potential job-post red and green flags.
-* **Resilient AI Pipeline:** Implements multi-model fallback cascades (Google Gemini and OpenAI) alongside private API key support (BYOK) and on-device Web AI.
+* **Resilient AI Pipeline:** Implements Google Gemini via AWS Serverless inference alongside on-device Web AI and instant Google authentication.
 * **Serverless Edge Caching:** Backed by AWS Lambda and DynamoDB with TTL-based request caching to eliminate redundant LLM invocations and maintain sub-second response times.
 
 ---
@@ -27,7 +27,7 @@ GradeMyJob, LinkedIn, Indeed ve We Work Remotely üzerindeki iş ilanlarını ta
 ### Teknik Özellikler
 * **Gerçek Zamanlı DOM Analizi:** LinkedIn, Indeed ve WWR platformlarında sayfa içeriğini dinamik olarak tarayarak ilan parametrelerini doğrudan tarayıcı bağlamında çıkarır.
 * **Gereksinim ve Sinyal Tespiti:** İlandaki şartları filtreler; kritik gereksinimleri ayıklar, çalışma şartlarına dair olumlu ve olumsuz sinyalleri (red/green flags) listeler.
-* **Katmanlı LLM Altyapısı:** Google Gemini ve OpenAI modelleri arasında otomatik geçiş mekanizması, yerel model desteği ve kullanıcıya özel API anahtarı (BYOK) kullanımı sunar.
+* **Katmanlı LLM Altyapısı:** AWS Serverless üzerinden Google Gemini entegrasyonu, yerel Web AI desteği ve anında Google ile oturum açma imkanı sunar.
 * **Sunucusuz Veri Önbellekleme:** AWS Lambda ve TTL tabanlı DynamoDB mimarisi ile mükerrer istekleri önleyerek analiz sonuçlarını milisaniyeler içinde getirir.
 
 ---
